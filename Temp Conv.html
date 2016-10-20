@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+
+<style>
+
+    label{
+        color:blue;
+
+    }
+body{
+    color:red;
+}
+
+</style>
+
+    <script src="temp convr.js">
+        
+    </script>
+
+</head>
+<body>
+<h2>Insert a number into one of the input fields below:</h2>
+
+<table>
+    <tr>
+        <td>
+            <input  type="text"
+                    id="c"
+                 onkeyup="convert('C')"
+                    required>
+            <label for="c">degree Celsius</label>
+
+        </td>
+    </tr>
+   <tr>
+       <td>
+           <p>equals</p>
+       </td>
+   </tr>
+    <tr>
+        <td>
+            <input type="text"
+                   id="f"
+                     onkeyup="convert('F')"
+                   required>
+            <label for="f">degree Fahrenheit</label>
+        </td>
+
+    </tr>
+</table>
+
+<img src="temp.jpeg">
+
+
+
+</body>
+</html>
